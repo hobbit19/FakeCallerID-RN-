@@ -1,0 +1,48 @@
+{
+  "name": "FakeCaller",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "google-libphonenumber": "^2.0.19",
+    "install": "^0.10.1",
+    "npm": "^5.0.3",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1",
+    "react-native-admob": "^1.3.0",
+    "react-native-audio-streamer": "0.0.9",
+    "react-native-audio-streaming": "^2.3.2",
+    "react-native-button": "^2.0.0",
+    "react-native-contacts": "^0.8.2",
+    "react-native-country-picker-modal": "^0.3.0-rc1",
+    "react-native-device-info": "^0.10.2",
+    "react-native-emoji": "^1.2.0",
+    "react-native-htmlview": "^0.9.0",
+    "react-native-linear-gradient": "^2.0.0",
+    "react-native-loading-spinner-overlay": "^0.4.1",
+    "react-native-modal-dropdown": "^0.4.3",
+    "react-native-onesignal": "^3.0.4",
+    "react-native-phone-input": "^0.1.8",
+    "react-native-router-flux": "^3.40.1",
+    "react-native-simple-modal": "^5.1.1",
+    "react-native-simple-radio-button": "^2.5.0-alpha.1",
+    "react-native-sound": "^0.10.3",
+    "react-native-vector-icons": "^4.1.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
